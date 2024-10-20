@@ -1,0 +1,127 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .homelanding-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  
+
+  
+  .login-btn {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .homemain-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    width: 100%;
+  }
+  
+  .left-content {
+    width: 850px;
+    height: 600px;
+    margin-left: 40px;
+    border-radius: 19px;
+  }
+  
+  .right-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .right-content h1 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .right-content .highlight {
+    color: #1b1b1f;
+    font-weight: bold;
+  }
+  
+  .register-btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: large;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .phone {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-color: rgba(162, 157, 163, 0.753);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 40px;
+  }
+  
+  .phone .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .phone .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .phone .profile h2 {
+    margin: 10px 0;
+  }
+  
+  .phone .message-btn {
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .phone .social-stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .phone .stat h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .phone .stat p {
+    margin: 5px 0;
+    font-size: 0.8rem;
+    color: #666;
+  }

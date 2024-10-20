@@ -1,0 +1,51 @@
+.unique-report-container {
+    margin: 20px;
+  }
+  
+  .unique-report-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .unique-table-header th,
+  .unique-report-table td {
+    text-align: center;
+    padding: 12px;
+    vertical-align: middle;
+  }
+  
+  .unique-table-header {
+    background-color: #343a40; 
+    color: #ffffff; 
+  }
+  
+  .unique-report-table tr {
+    transition: background-color 0.3s ease; 
+  }
+  
+  .unique-report-table tr:hover {
+    background-color: #edd9d9; 
+  }
+  
+  .table-bordered {
+    border: 1px solid #dee2e6; 
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #dee2e6; 
+  }
+  
+  .unique-btn-info {
+    background-color: #17a2b8; 
+    color: #ffffff; 
+    border: none;
+  }
+  
+  .unique-btn-info:hover {
+    background-color: #138496; 
+  }
+  
+  .unique-report-title {
+    text-align: center; 
+  }
